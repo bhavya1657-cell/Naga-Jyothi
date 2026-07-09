@@ -1,0 +1,36 @@
+.hero-image{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.profile-circle{
+  width:350px;
+  height:350px;
+  border-radius:50%;
+  background:linear-gradient(135deg,#00d9ff,#0077ff);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:100px;
+  font-weight:bold;
+  color:white;
+  border:8px solid #00d9ff;
+  box-shadow:0 0 40px rgba(0,217,255,.6);
+  animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%{transform:translateY(0);}
+  50%{transform:translateY(-20px);}
+  100%{transform:translateY(0);}
+}
+
+@media(max-width:900px){
+  .profile-circle{
+    width:250px;
+    height:250px;
+    font-size:70px;
+  }
+}

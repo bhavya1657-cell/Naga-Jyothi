@@ -1,0 +1,72 @@
+.education{
+padding:100px 10%;
+}
+
+.heading{
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+}
+
+.heading span{
+color:#00d9ff;
+}
+
+.education-container{
+display:flex;
+flex-direction:column;
+gap:30px;
+max-width:900px;
+margin:auto;
+}
+
+.education-box{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:20px;
+border-left:5px solid #00d9ff;
+transition:.4s;
+}
+
+.education-box:hover{
+transform:translateX(10px);
+box-shadow:0 0 25px rgba(0,217,255,.4);
+}
+
+.education-box h3{
+font-size:26px;
+margin-bottom:10px;
+color:#00d9ff;
+}
+
+.education-box h4{
+font-size:20px;
+margin-bottom:10px;
+}
+
+.education-box p{
+color:#ddd;
+margin-bottom:10px;
+}
+
+.education-box span{
+font-weight:bold;
+color:#00d9ff;
+}
+
+@media(max-width:768px){
+
+.education{
+padding:80px 20px;
+}
+
+.heading{
+font-size:34px;
+}
+
+.education-box h3{
+font-size:22px;
+}
+
+}
